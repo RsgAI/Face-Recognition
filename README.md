@@ -19,10 +19,11 @@ Also see [**Kaggle Link**](https://www.kaggle.com/datasets/stoicstatic/face-reco
 
 ### *Version*
 
-- _Python Version: **3.7.13**_
-- _Numpy Version: **1.21.5**_
-- _OpenCV(cv2) Version: **3.4.2**_
-- _Pandas Version: **1.3.5**_
+- _Python Version: **3.9.12**_
+- _Numpy Version: **1.22.3**_
+- _OpenCV(cv2) Version: **4.5.1**_
+- _Pandas Version: **1.4.3**_
+- _Matplotlib Version: **3.5.2**_
 
 ---
 
@@ -34,24 +35,35 @@ Also see [**Kaggle Link**](https://www.kaggle.com/datasets/stoicstatic/face-reco
 
 ### - Preparation
 
-1. **Preparation1:** First Step of data preparation process. Reading raw images with _**opencv**_ library, 
-dataset is cleanning from non-quality redundancy and shrinking.
-Dataset is splitting into Training, validation and Test data and ids are reset.
+1. **Preparation1:** First Step of data preparation process. 
+In this notebook file image data was read from raw image files with _**opencv**_ library,
+dataset was cleaned from non-quality redundancy and shrinked.
+Sample images were drawn from Training Validation and Test data.
+Dataset was splitted into Training, Validation and Test data and IDs were resetted.
 Performing the splitting process in the first stage will allow all models to be trained with the same Training data.
 Thus, the performance change caused by the Training data difference will be prevented.
-In this way, it will be possible to determine more accurately which model and parameters are better.
-Data is saved for future use.
+In this way, it will be possible to determine more accurately which models and parameters are better.
+Reorganized data were saved as pkl file for future use.
 See <ins>_/DataPreparation/Preparation1.ipynb_</ins> file for details.
 2. **Preparation2:** Second Data Preparation Process. 
-Previously selected and saved data is read from pkl file, 
-faces in the images of the selected data are detected
-using a [**Cascading Classifier**](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html "docs.opencv") model and 
-the position of the detected face is added to dataframe in (_[x, y, width, height]_) format as numpy array.
-Organized data is saved for future use.
+In this notebook file previously selected and saved data was read from pkl file, 
+Training, Validation and Test images were resized to (224, 224, 3).
+The reason why images were resized this way will be explained in the Training section.
+Sample images were drawn from Training Validation and Test data.
+Reorganized data were saved as pkl file for future use.
+See <ins>_/DataPreparation/Preparation2.ipynb_</ins> file for details.
+3. **Preparation3:** Third Data Preparation Process. 
+In this notebook file previously selected and saved data was read from pkl file.
+Faces in all images of selected data were detected
+via a [**Cascading Classifier**](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html "docs.opencv") model.
+Images in DataFrames were replaced with images containing extracted faces.
+Detection types of extracted faces were appended relevant DataFrames.
+Sample images were drawn from Training Validation and Test data.
+Reorganized data was saved for future use.
 This project will not focus on face detection.
 For this reason, the details of face detection will not be mentioned.
 See [**Face Detection**](https://en.wikipedia.org/wiki/Face_detection "wikipedia") for more information.
-See <ins>_/DataPreparation/Preparation2.ipynb_</ins> file for details.
+See <ins>_/DataPreparation/Preparation3.ipynb_</ins> file for details.
 
 ### - Cascade
 
