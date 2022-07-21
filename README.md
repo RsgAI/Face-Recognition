@@ -43,7 +43,7 @@ Dataset was splitted into Training, Validation and Test data and IDs were resett
 Performing the splitting process in the first stage will allow all models to be trained with the same Training data.
 Thus, the performance change caused by the Training data difference will be prevented.
 In this way, it will be possible to determine more accurately which models and parameters are better.
-Reorganized data were saved as pkl file for future use.
+Selected data were saved as pkl file for future use.
 See <ins>_/DataPreparation/Preparation1.ipynb_</ins> file for details.
 2. **Preparation2:** Second Data Preparation Process. 
 In this notebook file previously selected and saved data was read from pkl file, 
