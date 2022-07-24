@@ -64,6 +64,14 @@ This project will not focus on face detection.
 For this reason, the details of face detection will not be mentioned.
 See [**Face Detection**](https://en.wikipedia.org/wiki/Face_detection "wikipedia") for more information.
 See <ins>_/DataPreparation/Preparation3.ipynb_</ins> file for details.
+4. **Preparation4:** Fourth Data Preparation Process. 
+In this notebook file 
+two parts that can be considered balanced were taken from the available dataset.
+Two new datasets named FirstQuarter and ThirdQuarter were created, 
+although they do not exactly correspond to a quarter of the number of people in the dataset.
+Sample images were drawn from Training Validation and Test data.
+Reorganized data was saved for future use.
+See <ins>_/DataPreparation/Preparation4.ipynb_</ins> file for details.
 
 ### - Cascade
 
