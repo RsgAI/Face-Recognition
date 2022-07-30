@@ -72,6 +72,14 @@ although they do not exactly correspond to a quarter of the number of people in 
 Sample images were drawn from Training Validation and Test data.
 Reorganized data was saved for future use.
 See <ins>_/DataPreparation/Preparation4.ipynb_</ins> file for details.
+5. **Preparation5:** Fifth Data Preparation Process. 
+In this notebook file 
+a part that can be considered balanced was taken from the available dataset.
+And an imbalanced part was taken by making it balanced from the available dataset.
+Two new datasets named Between80And90 and Above90 were created.
+Sample images were drawn from Training Validation and Test data.
+Reorganized data was saved for future use.
+See <ins>_/DataPreparation/Preparation5.ipynb_</ins> file for details.
 
 ### - Cascade
 
