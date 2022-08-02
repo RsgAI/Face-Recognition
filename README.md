@@ -5,7 +5,7 @@
 *In this project, deep learning-based face recognition will be implemented on the
 [**Labeled Face in the Wild**](http://vis-www.cs.umass.edu/lfw/ "Official Website") dataset.*
 
-### Note: Work on this project continues
+### Note: Work on this project is being continued
 ---
 
 ### *Dataset*
@@ -88,6 +88,43 @@ provided by _**opencv**_ library for face detection.
 See [**Cascading Classifier Tutorial**](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html "docs.opencv") for more information.
 See [**haarcascades File**](https://github.com/opencv/opencv/tree/master/data/haarcascades "github") published by _**opencv**_ for more cascading classifier models.
 See <ins>_/Cascade/haarcascade_frontalface_alt2.xml_</ins> file for the classifier used in this project.
+
+---
+## *Training*
+
+*First of all, I personally belive that it is necessary to understand the basis and philosophy of the method to be applied.
+Simulating the real world in digital environment is the basis of computer science.
+Many methods used in computer science are inspired by nature.
+The Face Recognition(Image Classification) process that will be carried out within the scope of this project too will be simulate the image processing mechanism of the human brain.*
+
+*Everything starts with how question.
+How the human brain processes images?
+Is the image (pixel values) taken from the human eyes really meaningful?
+If a person with her/his eyes closed is given the sequential pixel values of an object, can the person recognize this object?
+Or can pixel values used to describe it to someone who doesn't know what a pineapple looks like?
+Sounds pretty silly doesn't it?
+Things to mention instinctively to describe an object are its shape, color, texture, size etc.
+We describe objects this way because that's how we actually see them and store them in our memory, not pixel values.
+These are called [**Features**](https://en.wikipedia.org/wiki/Feature_(computer_vision) "wikipedia") of images or objects.
+See also [**Features(Machine Learning)**](https://en.wikipedia.org/wiki/Feature_(machine_learning) "wikipedia").*
+
+*The image processing section of the human brain is called [**Visual Cortex**](https://en.wikipedia.org/wiki/Visual_cortex "wikipedia").
+If a little research is done about the Visual Cortex, it will be noticed that the image taken from the eyes undergoes many processes in Visual Cortex.
+These processes can be described as [**Feature Extraction**](https://en.wikipedia.org/wiki/Feature_extraction "wikipedia") in its simplest form.
+That is, the human brain processes images taken from the eyes by extracting their features.*
+
+*[**Artificial Neural Networks(ANN)**](https://en.wikipedia.org/wiki/Artificial_neural_network "wikipedia") can be thought of as a virtual simulation of the human brain, they are frequently used in machine learning applications.
+This structure has also been tried to be used for Image [**Classification**](https://en.wikipedia.org/wiki/Classification "wikipedia").
+No success was achieved when a [**Feedforward Neural Network**](https://en.wikipedia.org/wiki/Feedforward_neural_network "wikipedia") was trained with image pixels.
+However, successful results were achieved when the training was repeated with the features extracted from the images.
+In the beginning, these features were extracted with some algorithms but this was inefficient in many ways.
+First of all, these algorithms could've taken a long time to work.
+In addition, the features to be extracted had to be determined manually.
+This could result in ignoring many features that are valuable for the relevant classification.*
+
+*This process continued until the [**Convolutional Neural Network(CNN)**](https://en.wikipedia.org/wiki/Convolutional_neural_network "wikipedia"), which made feature extraction a part of the learning process, which was developed by exploring the Visual Cortex at a simulable level.
+See also [**Convolutional Neural Network(CNN)**](https://www.ibm.com/cloud/learn/convolutional-neural-networks "IBM"). 
+Check [**This Article**](https://arxiv.org/ftp/arxiv/papers/2001/2001.07092.pdf "arxiv") for the relationship between Visual Cortex and Convolutional Neural Network(CNN).*
 
 ---
 
