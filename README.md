@@ -23,6 +23,7 @@ Also see [**Kaggle Link**](https://www.kaggle.com/datasets/stoicstatic/face-reco
 - _Numpy Version: **1.22.3**_
 - _OpenCV(cv2) Version: **4.5.1**_
 - _Pandas Version: **1.4.3**_
+- _Tensorflow Version: **2.6.0**_
 - _Matplotlib Version: **3.5.2**_
 
 ---
@@ -125,6 +126,46 @@ This could result in ignoring many features that are valuable for the relevant c
 *This process continued until the [**Convolutional Neural Network(CNN)**](https://en.wikipedia.org/wiki/Convolutional_neural_network "wikipedia"), which made feature extraction a part of the learning process, which was developed by exploring the Visual Cortex at a simulable level.
 See also [**Convolutional Neural Network(CNN)**](https://www.ibm.com/cloud/learn/convolutional-neural-networks "IBM"). 
 Check [**This Article**](https://arxiv.org/ftp/arxiv/papers/2001/2001.07092.pdf "arxiv") for the relationship between Visual Cortex and Convolutional Neural Network(CNN).*
+
+*Considering human experiences on this subject, visual cortex does not develop with a limited number of visuals in a limited field.
+The human sees and analyzes images continuously as long as the eyes are open.
+The brain, which is constantly changing, continues to improve itself by learning something new from each image.
+In this way, the knowledge learned from experience in any field can be used in other fields if it is meaningful.
+This is the motivation for [**Transfer Learning and Fine-Tuning**](https://www.tensorflow.org/tutorials/images/transfer_learning "tensorflow").
+See also [**Transfer Learning (wikipedia)**](https://en.wikipedia.org/wiki/Transfer_learning "wikipedia").*
+
+*In this section, different models will be trained with the prepared datasets and the results will be shown.
+The models to be trained will be based on the architectures of the [**VGG16**](https://keras.io/api/applications/vgg/ "keras") and [**MobileNet**](https://keras.io/api/applications/mobilenet/#mobilenet-function "keras") pre-trained models.
+See also [**MobileNet (GitHub)**](https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet_v1.md "github") and [**Depthwise Separable Convolutions**](https://towardsdatascience.com/understanding-depthwise-separable-convolutions-and-the-efficiency-of-mobilenets-6de3d6b62503 "towardsdatascience").
+See also [**VGG16 (TensorFlow)**](https://www.tensorflow.org/api_docs/python/tf/keras/applications/vgg16/VGG16 "tensorflow")*
+
+*Many pre-trained models, including the ones to be used within the scope of this project, have been trained with images containing pixel values in the [-1, 1] range.
+In this way, the data will be symmetrical and the performance of the [**Backpropagation**](https://en.wikipedia.org/wiki/Backpropagation "wikipedia") algorithm used during training will be increased.
+See also [**This Question and Answer**](https://stackoverflow.com/questions/59540276/why-in-preprocessing-image-data-we-need-to-do-zero-centered-data "stackoverflow").
+Therefore, training will be performed by converting pixel values to this range with the simplest method (pixel / 127.5 - 1).*
+
+*The same trainings will be carried out by applying [**Data Augmentation**](https://en.wikipedia.org/wiki/Data_augmentation "wikipedia") to the data in order to observe the difference.
+For details of the Data Augmentation process used in this application, see also [**Image Data Augmentation**](https://www.tensorflow.org/tutorials/images/data_augmentation "tensorflow").*
+
+### - ResizedData - FullPhoto
+
+1. **Training1:** First model training process. 
+In this notebook file, a model based on VGG16 architecture were trained with the ResizedData-FullPhoto dataset.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/ResizedData/FullPhoto/Training1.ipynb_</ins> file for details.
+2. **Training2:** Second model training process. 
+In this notebook file, a model based on MobileNet architecture were trained with the ResizedData-FullPhoto dataset.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/ResizedData/FullPhoto/Training2.ipynb_</ins> file for details.
+3. **Training3:** Third model training process. 
+In this notebook file, Data Augmentation operation were applied on ResizeData-FullPhoto dataset, a model based on VGG16 architecture were trained with this augmented data.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/ResizedData/FullPhoto/Training3.ipynb_</ins> file for details.
+4. **Training4:** Fourth model training process. 
+In this notebook file, Data Augmentation operation were applied on ResizeData-FullPhoto dataset, a model based on MobileNet architecture were trained with this augmented data.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/ResizedData/FullPhoto/Training4.ipynb_</ins> file for details.
+
 
 ---
 
