@@ -139,7 +139,9 @@ The models to be trained will be based on the architectures of the [**VGG16**](h
 See also [**MobileNet (GitHub)**](https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet_v1.md "github") and [**Depthwise Separable Convolutions**](https://towardsdatascience.com/understanding-depthwise-separable-convolutions-and-the-efficiency-of-mobilenets-6de3d6b62503 "towardsdatascience").
 See also [**VGG16 (TensorFlow)**](https://www.tensorflow.org/api_docs/python/tf/keras/applications/vgg16/VGG16 "tensorflow")*
 
-*Many pre-trained models, including the ones to be used within the scope of this project, have been trained with images containing pixel values in the [-1, 1] range.
+*Many pre-trained models, including the ones to be used within the scope of this project, have been trained with (224, 224, 3) sized images containing pixel values in the [-1, 1] range.
+This is why the images were resized as (224, 224, 3) in the Preparation section.
+Also, for this reason, the pixel values will be converted to the range [-1, 1].
 In this way, the data will be symmetrical and the performance of the [**Backpropagation**](https://en.wikipedia.org/wiki/Backpropagation "wikipedia") algorithm used during training will be increased.
 See also [**This Question and Answer**](https://stackoverflow.com/questions/59540276/why-in-preprocessing-image-data-we-need-to-do-zero-centered-data "stackoverflow").
 Therefore, training will be performed by converting pixel values to this range with the simplest method (pixel / 127.5 - 1).*
@@ -165,6 +167,22 @@ See <ins>_/Training/ResizedData/FullPhoto/Training3.ipynb_</ins> file for detail
 In this notebook file, Data Augmentation operation were applied on ResizeData-FullPhoto dataset, a model based on MobileNet architecture were trained with this augmented data.
 Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
 See <ins>_/Training/ResizedData/FullPhoto/Training4.ipynb_</ins> file for details.
+5. **Training5:** Fifth model training process. 
+In this notebook file, pre-trained VGG16 model were trained with the ResizedData-FullPhoto dataset.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/ResizedData/FullPhoto/Training5.ipynb_</ins> file for details.
+6. **Training6:** Sixth model training process. 
+In this notebook file, pre-trained MobileNetV2 model were trained with the ResizedData-FullPhoto dataset.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/ResizedData/FullPhoto/Training6.ipynb_</ins> file for details.
+7. **Training7:** Seventh model training process. 
+In this notebook file, Data Augmentation operation were applied on ResizeData-FullPhoto dataset, pre-trained VGG16 model were trained with this augmented data.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/ResizedData/FullPhoto/Training7.ipynb_</ins> file for details.
+8. **Training8:** Eighth model training process. 
+In this notebook file, Data Augmentation operation were applied on ResizeData-FullPhoto dataset, pre-trained MobileNetV2 model were trained with this augmented data.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/ResizedData/FullPhoto/Training8.ipynb_</ins> file for details.
 
 
 ---
