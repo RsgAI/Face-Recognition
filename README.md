@@ -132,7 +132,8 @@ The human sees and analyzes images continuously as long as the eyes are open.
 The brain, which is constantly changing, continues to improve itself by learning something new from each image.
 In this way, the knowledge learned from experience in any field can be used in other fields if it is meaningful.
 This is the motivation for [**Transfer Learning and Fine-Tuning**](https://www.tensorflow.org/tutorials/images/transfer_learning "tensorflow").
-See also [**Transfer Learning (wikipedia)**](https://en.wikipedia.org/wiki/Transfer_learning "wikipedia").*
+See also [**Transfer Learning (wikipedia)**](https://en.wikipedia.org/wiki/Transfer_learning "wikipedia")
+and [**Fine-Tuning (deeplizard)**](https://deeplizard.com/learn/video/5T-iXNNiwIs "deeplizard").*
 
 *In this section, different models will be trained with the prepared datasets and the results will be shown.
 The models to be trained will be based on the architectures of the [**VGG16**](https://keras.io/api/applications/vgg/ "keras") and [**MobileNet**](https://keras.io/api/applications/mobilenet/#mobilenet-function "keras") pre-trained models.
@@ -154,35 +155,53 @@ For details of the Data Augmentation process used in this application, see also 
 1. **Training1:** First model training process. 
 In this notebook file, a model based on VGG16 architecture were trained with the ResizedData-FullPhoto dataset.
 Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
-See <ins>_/Training/ResizedData/FullPhoto/Training1.ipynb_</ins> file for details.
+See <ins>_/Training/ResizedData/FullPhoto/Training01.ipynb_</ins> file for details.
 2. **Training2:** Second model training process. 
 In this notebook file, a model based on MobileNet architecture were trained with the ResizedData-FullPhoto dataset.
 Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
-See <ins>_/Training/ResizedData/FullPhoto/Training2.ipynb_</ins> file for details.
+See <ins>_/Training/ResizedData/FullPhoto/Training02.ipynb_</ins> file for details.
 3. **Training3:** Third model training process. 
 In this notebook file, Data Augmentation operation were applied on ResizeData-FullPhoto dataset, a model based on VGG16 architecture were trained with this augmented data.
 Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
-See <ins>_/Training/ResizedData/FullPhoto/Training3.ipynb_</ins> file for details.
+See <ins>_/Training/ResizedData/FullPhoto/Training03.ipynb_</ins> file for details.
 4. **Training4:** Fourth model training process. 
 In this notebook file, Data Augmentation operation were applied on ResizeData-FullPhoto dataset, a model based on MobileNet architecture were trained with this augmented data.
 Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
-See <ins>_/Training/ResizedData/FullPhoto/Training4.ipynb_</ins> file for details.
+See <ins>_/Training/ResizedData/FullPhoto/Training04.ipynb_</ins> file for details.
 5. **Training5:** Fifth model training process. 
-In this notebook file, pre-trained VGG16 model were trained with the ResizedData-FullPhoto dataset.
+In this notebook file, pre-trained VGG16 model were trained based on Transfer Learning method with the ResizedData-FullPhoto dataset.
 Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
-See <ins>_/Training/ResizedData/FullPhoto/Training5.ipynb_</ins> file for details.
+See <ins>_/Training/ResizedData/FullPhoto/Training05.ipynb_</ins> file for details.
 6. **Training6:** Sixth model training process. 
-In this notebook file, pre-trained MobileNetV2 model were trained with the ResizedData-FullPhoto dataset.
+In this notebook file, pre-trained MobileNetV2 model were trained based on Transfer Learning method with the ResizedData-FullPhoto dataset.
 Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
-See <ins>_/Training/ResizedData/FullPhoto/Training6.ipynb_</ins> file for details.
+See <ins>_/Training/ResizedData/FullPhoto/Training06.ipynb_</ins> file for details.
 7. **Training7:** Seventh model training process. 
-In this notebook file, Data Augmentation operation were applied on ResizeData-FullPhoto dataset, pre-trained VGG16 model were trained with this augmented data.
+In this notebook file, Data Augmentation operation were applied on ResizeData-FullPhoto dataset, pre-trained VGG16 model were trained based on Transfer Learning method with this augmented data.
 Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
-See <ins>_/Training/ResizedData/FullPhoto/Training7.ipynb_</ins> file for details.
+See <ins>_/Training/ResizedData/FullPhoto/Training07.ipynb_</ins> file for details.
 8. **Training8:** Eighth model training process. 
-In this notebook file, Data Augmentation operation were applied on ResizeData-FullPhoto dataset, pre-trained MobileNetV2 model were trained with this augmented data.
+In this notebook file, Data Augmentation operation were applied on ResizeData-FullPhoto dataset, pre-trained MobileNetV2 model were trained based on Transfer Learning method with this augmented data.
 Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
-See <ins>_/Training/ResizedData/FullPhoto/Training8.ipynb_</ins> file for details.
+See <ins>_/Training/ResizedData/FullPhoto/Training08.ipynb_</ins> file for details.
+9. **Training9:** Ninth model training process. 
+In this notebook file, pre-trained VGG16 model were trained based on Transfer Learning and Fine-Tuning methods with the ResizedData-FullPhoto dataset.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/ResizedData/FullPhoto/Training09.ipynb_</ins> file for details.
+10. **Training10:** Tenth model training process. 
+In this notebook file, pre-trained MobileNetV2 model were trained based on Transfer Learning and Fine-Tuning methods with the ResizedData-FullPhoto dataset.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/ResizedData/FullPhoto/Training10.ipynb_</ins> file for details.
+11. **Training11:** Eleventh model training process. 
+In this notebook file, Data Augmentation operation were applied on ResizeData-FullPhoto dataset, pre-trained VGG16 model were trained based on Transfer Learning and Fine-Tuning methods with this augmented data.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/ResizedData/FullPhoto/Training11.ipynb_</ins> file for details.
+12. **Training12:** Twelfth model training process. 
+In this notebook file, Data Augmentation operation were applied on ResizeData-FullPhoto dataset, pre-trained MobileNetV2 model were trained based on Transfer Learning and Fine-Tuning methods with this augmented data.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/ResizedData/FullPhoto/Training12.ipynb_</ins> file for details.
+
+
 
 
 ---
