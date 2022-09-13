@@ -157,7 +157,7 @@ In this notebook file, a model based on VGG16 architecture were trained with the
 Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
 See <ins>_/Training/ResizedData/FullPhoto/Training01.ipynb_</ins> file for details.
 2. **Training2:** Second model training process. 
-In this notebook file, a model based on MobileNet architecture were trained with the ResizedData/FullPhoto dataset.
+In this notebook file, a model based on MobileNetV2 architecture were trained with the ResizedData/FullPhoto dataset.
 Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
 See <ins>_/Training/ResizedData/FullPhoto/Training02.ipynb_</ins> file for details.
 3. **Training3:** Third model training process. 
@@ -165,7 +165,7 @@ In this notebook file, Data Augmentation operation were applied on ResizeData/Fu
 Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
 See <ins>_/Training/ResizedData/FullPhoto/Training03.ipynb_</ins> file for details.
 4. **Training4:** Fourth model training process. 
-In this notebook file, Data Augmentation operation were applied on ResizeData/FullPhoto dataset, a model based on MobileNet architecture were trained with this augmented data.
+In this notebook file, Data Augmentation operation were applied on ResizeData/FullPhoto dataset, a model based on MobileNetV2 architecture were trained with this augmented data.
 Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
 See <ins>_/Training/ResizedData/FullPhoto/Training04.ipynb_</ins> file for details.
 5. **Training5:** Fifth model training process. 
@@ -208,7 +208,7 @@ In this notebook file, a model based on VGG16 architecture were trained with the
 Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
 See <ins>_/Training/ResizedData/FaceOnly/Training01.ipynb_</ins> file for details.
 2. **Training2:** Second model training process. 
-In this notebook file, a model based on MobileNet architecture were trained with the ResizedData/FaceOnly dataset.
+In this notebook file, a model based on MobileNetV2 architecture were trained with the ResizedData/FaceOnly dataset.
 Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
 See <ins>_/Training/ResizedData/FaceOnly/Training02.ipynb_</ins> file for details.
 3. **Training3:** Third model training process. 
@@ -216,7 +216,7 @@ In this notebook file, Data Augmentation operation were applied on ResizeData/Fa
 Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
 See <ins>_/Training/ResizedData/FaceOnly/Training03.ipynb_</ins> file for details.
 4. **Training4:** Fourth model training process. 
-In this notebook file, Data Augmentation operation were applied on ResizeData/FaceOnly dataset, a model based on MobileNet architecture were trained with this augmented data.
+In this notebook file, Data Augmentation operation were applied on ResizeData/FaceOnly dataset, a model based on MobileNetV2 architecture were trained with this augmented data.
 Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
 See <ins>_/Training/ResizedData/FaceOnly/Training04.ipynb_</ins> file for details.
 5. **Training5:** Fifth model training process. 
