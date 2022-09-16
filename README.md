@@ -303,6 +303,58 @@ In this notebook file, Data Augmentation operation were applied on FirstQuarter/
 Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
 See <ins>_/Training/FirstQuarter/FullPhoto/Training12.ipynb_</ins> file for details.
 
+### - FirstQuarter / FaceOnly
+
+1. **Training1:** First model training process. 
+In this notebook file, a model based on VGG16 architecture were trained with the FirstQuarter/FaceOnly dataset.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/FirstQuarter/FaceOnly/Training01.ipynb_</ins> file for details.
+2. **Training2:** Second model training process. 
+In this notebook file, a model based on MobileNetV2 architecture were trained with the FirstQuarter/FaceOnly dataset.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/FirstQuarter/FaceOnly/Training02.ipynb_</ins> file for details.
+3. **Training3:** Third model training process. 
+In this notebook file, Data Augmentation operation were applied on FirstQuarter/FaceOnly dataset, a model based on VGG16 architecture were trained with this augmented data.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/FirstQuarter/FaceOnly/Training03.ipynb_</ins> file for details.
+4. **Training4:** Fourth model training process. 
+In this notebook file, Data Augmentation operation were applied on FirstQuarter/FaceOnly dataset, a model based on MobileNetV2 architecture were trained with this augmented data.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/FirstQuarter/FaceOnly/Training04.ipynb_</ins> file for details.
+5. **Training5:** Fifth model training process. 
+In this notebook file, pre-trained VGG16 model were trained based on Transfer Learning method with the FirstQuarter/FaceOnly dataset.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/FirstQuarter/FaceOnly/Training05.ipynb_</ins> file for details.
+6. **Training6:** Sixth model training process. 
+In this notebook file, pre-trained MobileNetV2 model were trained based on Transfer Learning method with the FirstQuarter/FaceOnly dataset.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/FirstQuarter/FaceOnly/Training06.ipynb_</ins> file for details.
+7. **Training7:** Seventh model training process. 
+In this notebook file, Data Augmentation operation were applied on FirstQuarter/FaceOnly dataset, pre-trained VGG16 model were trained based on Transfer Learning method with this augmented data.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/FirstQuarter/FaceOnly/Training07.ipynb_</ins> file for details.
+8. **Training8:** Eighth model training process. 
+In this notebook file, Data Augmentation operation were applied on FirstQuarter/FaceOnly dataset, pre-trained MobileNetV2 model were trained based on Transfer Learning method with this augmented data.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/FirstQuarter/FaceOnly/Training08.ipynb_</ins> file for details.
+9. **Training9:** Ninth model training process. 
+In this notebook file, pre-trained VGG16 model were trained based on Transfer Learning and Fine-Tuning methods with the FirstQuarter/FaceOnly dataset.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/FirstQuarter/FaceOnly/Training09.ipynb_</ins> file for details.
+10. **Training10:** Tenth model training process. 
+In this notebook file, pre-trained MobileNetV2 model were trained based on Transfer Learning and Fine-Tuning methods with the FirstQuarter/FaceOnly dataset.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/FirstQuarter/FaceOnly/Training10.ipynb_</ins> file for details.
+11. **Training11:** Eleventh model training process. 
+In this notebook file, Data Augmentation operation were applied on FirstQuarter/FaceOnly dataset, pre-trained VGG16 model were trained based on Transfer Learning and Fine-Tuning methods with this augmented data.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/FirstQuarter/FaceOnly/Training11.ipynb_</ins> file for details.
+12. **Training12:** Twelfth model training process. 
+In this notebook file, Data Augmentation operation were applied on FirstQuarter/FaceOnly dataset, pre-trained MobileNetV2 model were trained based on Transfer Learning and Fine-Tuning methods with this augmented data.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/FirstQuarter/FaceOnly/Training12.ipynb_</ins> file for details.
+
+
 ---
 
 - _**Note:** All data files are deleted with their folders to save memory.
