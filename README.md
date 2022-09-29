@@ -558,6 +558,108 @@ In this notebook file, Data Augmentation operation were applied on Between80And9
 Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
 See <ins>_/Training/Between80And90/FaceOnly/Training12.ipynb_</ins> file for details.
 
+### - Above90 / FullPhoto
+
+1. **Training1:** First model training process. 
+In this notebook file, a model based on VGG16 architecture were trained with the Above90/FullPhoto dataset.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/Above90/FullPhoto/Training01.ipynb_</ins> file for details.
+2. **Training2:** Second model training process. 
+In this notebook file, a model based on MobileNetV2 architecture were trained with the Above90/FullPhoto dataset.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/Above90/FullPhoto/Training02.ipynb_</ins> file for details.
+3. **Training3:** Third model training process. 
+In this notebook file, Data Augmentation operation were applied on Above90/FullPhoto dataset, a model based on VGG16 architecture were trained with this augmented data.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/Above90/FullPhoto/Training03.ipynb_</ins> file for details.
+4. **Training4:** Fourth model training process. 
+In this notebook file, Data Augmentation operation were applied on Above90/FullPhoto dataset, a model based on MobileNetV2 architecture were trained with this augmented data.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/Above90/FullPhoto/Training04.ipynb_</ins> file for details.
+5. **Training5:** Fifth model training process. 
+In this notebook file, pre-trained VGG16 model were trained based on Transfer Learning method with the Above90/FullPhoto dataset.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/Above90/FullPhoto/Training05.ipynb_</ins> file for details.
+6. **Training6:** Sixth model training process. 
+In this notebook file, pre-trained MobileNetV2 model were trained based on Transfer Learning method with the Above90/FullPhoto dataset.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/Above90/FullPhoto/Training06.ipynb_</ins> file for details.
+7. **Training7:** Seventh model training process. 
+In this notebook file, Data Augmentation operation were applied on Above90/FullPhoto dataset, pre-trained VGG16 model were trained based on Transfer Learning method with this augmented data.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/Above90/FullPhoto/Training07.ipynb_</ins> file for details.
+8. **Training8:** Eighth model training process. 
+In this notebook file, Data Augmentation operation were applied on Above90/FullPhoto dataset, pre-trained MobileNetV2 model were trained based on Transfer Learning method with this augmented data.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/Above90/FullPhoto/Training08.ipynb_</ins> file for details.
+9. **Training9:** Ninth model training process. 
+In this notebook file, pre-trained VGG16 model were trained based on Transfer Learning and Fine-Tuning methods with the Above90/FullPhoto dataset.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/Above90/FullPhoto/Training09.ipynb_</ins> file for details.
+10. **Training10:** Tenth model training process. 
+In this notebook file, pre-trained MobileNetV2 model were trained based on Transfer Learning and Fine-Tuning methods with the Above90/FullPhoto dataset.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/Above90/FullPhoto/Training10.ipynb_</ins> file for details.
+11. **Training11:** Eleventh model training process. 
+In this notebook file, Data Augmentation operation were applied on Above90/FullPhoto dataset, pre-trained VGG16 model were trained based on Transfer Learning and Fine-Tuning methods with this augmented data.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/Above90/FullPhoto/Training11.ipynb_</ins> file for details.
+12. **Training12:** Twelfth model training process. 
+In this notebook file, Data Augmentation operation were applied on Above90/FullPhoto dataset, pre-trained MobileNetV2 model were trained based on Transfer Learning and Fine-Tuning methods with this augmented data.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/Above90/FullPhoto/Training12.ipynb_</ins> file for details.
+
+### - Above90 / FaceOnly
+
+1. **Training1:** First model training process. 
+In this notebook file, a model based on VGG16 architecture were trained with the Above90/FaceOnly dataset.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/Above90/FaceOnly/Training01.ipynb_</ins> file for details.
+2. **Training2:** Second model training process. 
+In this notebook file, a model based on MobileNetV2 architecture were trained with the Above90/FaceOnly dataset.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/Above90/FaceOnly/Training02.ipynb_</ins> file for details.
+3. **Training3:** Third model training process. 
+In this notebook file, Data Augmentation operation were applied on Above90/FaceOnly dataset, a model based on VGG16 architecture were trained with this augmented data.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/Above90/FaceOnly/Training03.ipynb_</ins> file for details.
+4. **Training4:** Fourth model training process. 
+In this notebook file, Data Augmentation operation were applied on Above90/FaceOnly dataset, a model based on MobileNetV2 architecture were trained with this augmented data.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/Above90/FaceOnly/Training04.ipynb_</ins> file for details.
+5. **Training5:** Fifth model training process. 
+In this notebook file, pre-trained VGG16 model were trained based on Transfer Learning method with the Above90/FaceOnly dataset.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/Above90/FaceOnly/Training05.ipynb_</ins> file for details.
+6. **Training6:** Sixth model training process. 
+In this notebook file, pre-trained MobileNetV2 model were trained based on Transfer Learning method with the Above90/FaceOnly dataset.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/Above90/FaceOnly/Training06.ipynb_</ins> file for details.
+7. **Training7:** Seventh model training process. 
+In this notebook file, Data Augmentation operation were applied on Above90/FaceOnly dataset, pre-trained VGG16 model were trained based on Transfer Learning method with this augmented data.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/Above90/FaceOnly/Training07.ipynb_</ins> file for details.
+8. **Training8:** Eighth model training process. 
+In this notebook file, Data Augmentation operation were applied on Above90/FaceOnly dataset, pre-trained MobileNetV2 model were trained based on Transfer Learning method with this augmented data.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/Above90/FaceOnly/Training08.ipynb_</ins> file for details.
+9. **Training9:** Ninth model training process. 
+In this notebook file, pre-trained VGG16 model were trained based on Transfer Learning and Fine-Tuning methods with the Above90/FaceOnly dataset.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/Above90/FaceOnly/Training09.ipynb_</ins> file for details.
+10. **Training10:** Tenth model training process. 
+In this notebook file, pre-trained MobileNetV2 model were trained based on Transfer Learning and Fine-Tuning methods with the Above90/FaceOnly dataset.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/Above90/FaceOnly/Training10.ipynb_</ins> file for details.
+11. **Training11:** Eleventh model training process. 
+In this notebook file, Data Augmentation operation were applied on Above90/FaceOnly dataset, pre-trained VGG16 model were trained based on Transfer Learning and Fine-Tuning methods with this augmented data.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/Above90/FaceOnly/Training11.ipynb_</ins> file for details.
+12. **Training12:** Twelfth model training process. 
+In this notebook file, Data Augmentation operation were applied on Above90/FaceOnly dataset, pre-trained MobileNetV2 model were trained based on Transfer Learning and Fine-Tuning methods with this augmented data.
+Accuracy and Loss charts were drawn for the Training and Validation data, and the results obtained by evaluating the trained model with the Test data were printed.
+See <ins>_/Training/Above90/FaceOnly/Training12.ipynb_</ins> file for details.
+
 ---
 
 - _**Note:** All data files are deleted with their folders to save memory.
