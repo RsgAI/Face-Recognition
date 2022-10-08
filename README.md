@@ -632,7 +632,7 @@ In this case the Test Accuracy value was filled with a _-_ sign.*
 ### - ResizedData / FullPhoto
 
 | Name | Details | Training Accuracy | Validation Accuracy | Test Accuracy |
-| -----| ------- | ----------------- | ------------------- | ------------- |
+| :-----: | :-------: | :-----------------: | :-------------------: | :-------------: |
 | Training1 | VGG16 / Random  Weights | 0.085 | 0.095 | 0.097 |
 | Training2 | MobileNetV2 / Random  Weights | 0.866 | 0.198 | - |
 | Training3 | VGG16 / Random  Weights / Data Augmentation | 0.084 | 0.095 | 0.097 |
@@ -649,7 +649,7 @@ In this case the Test Accuracy value was filled with a _-_ sign.*
 ### - ResizedData / FaceOnly
 
 | Name | Details | Training Accuracy | Validation Accuracy | Test Accuracy |
-| -----| ------- | ----------------- | ------------------- | ------------- |
+| :-----: | :-------: | :-----------------: | :-------------------: | :-------------: |
 | Training1 | VGG16 / Random  Weights | 0.085 | 0.095 | 0.097 |
 | Training2 | MobileNetV2 / Random  Weights | 0.835 | 0.173 | - |
 | Training3 | VGG16 / Random  Weights / Data Augmentation | 0.087 | 0.095 | 0.097 |
@@ -666,7 +666,7 @@ In this case the Test Accuracy value was filled with a _-_ sign.*
 ### - FirstQuarter / FullPhoto
 
 | Name | Details | Training Accuracy | Validation Accuracy | Test Accuracy |
-| -----| ------- | ----------------- | ------------------- | ------------- |
+| :-----: | :-------: | :-----------------: | :-------------------: | :-------------: |
 | Training1 | VGG16 / Random  Weights | 0.007 | 0.018 | - |
 | Training2 | MobileNetV2 / Random  Weights | 1.000 | 0.018 | - |
 | Training3 | VGG16 / Random  Weights / Data Augmentation | 0.011 | 0.018 | - |
@@ -683,7 +683,7 @@ In this case the Test Accuracy value was filled with a _-_ sign.*
 ### - FirstQuarter / FaceOnly
 
 | Name | Details | Training Accuracy | Validation Accuracy | Test Accuracy |
-| -----| ------- | ----------------- | ------------------- | ------------- |
+| :-----: | :-------: | :-----------------: | :-------------------: | :-------------: |
 | Training1 | VGG16 / Random  Weights | 0.007 | 0.018 | - |
 | Training2 | MobileNetV2 / Random  Weights | 0.993 | 0.18 | 0.000 |
 | Training3 | VGG16 / Random  Weights / Data Augmentation | 0.008 | 0.018 | - |
@@ -700,7 +700,7 @@ In this case the Test Accuracy value was filled with a _-_ sign.*
 ### - ThirdQuarter / FullPhoto
 
 | Name | Details | Training Accuracy | Validation Accuracy | Test Accuracy |
-| -----| ------- | ----------------- | ------------------- | ------------- |
+| :-----: | :-------: | :-----------------: | :-------------------: | :-------------: |
 | Training1 | VGG16 / Random  Weights | 0.017 | 0.041 | - |
 | Training2 | MobileNetV2 / Random  Weights | 1.000 | 0.031 | 0.000 |
 | Training3 | VGG16 / Random  Weights / Data Augmentation | 0.021 | 0.031 | - |
@@ -717,7 +717,7 @@ In this case the Test Accuracy value was filled with a _-_ sign.*
 ### - ThirdQuarter / FaceOnly
 
 | Name | Details | Training Accuracy | Validation Accuracy | Test Accuracy |
-| -----| ------- | ----------------- | ------------------- | ------------- |
+| :-----: | :-------: | :-----------------: | :-------------------: | :-------------: |
 | Training1 | VGG16 / Random  Weights | 0.022 | 0.031 | - |
 | Training2 | MobileNetV2 / Random  Weights | 0.980 | 0.021 | 0.012 |
 | Training3 | VGG16 / Random  Weights / Data Augmentation | 0.021 | 0.031 | - |
@@ -734,7 +734,7 @@ In this case the Test Accuracy value was filled with a _-_ sign.*
 ### - Between80And90 / FullPhoto
 
 | Name | Details | Training Accuracy | Validation Accuracy | Test Accuracy |
-| -----| ------- | ----------------- | ------------------- | ------------- |
+| :-----: | :-------: | :-----------------: | :-------------------: | :-------------: |
 | Training1 | VGG16 / Random  Weights | 0.030 | 0.041 | 0.017 |
 | Training2 | MobileNetV2 / Random  Weights | 0.981 | 0.041 | 0.008 |
 | Training3 | VGG16 / Random  Weights / Data Augmentation | 0.031 | 0.041 | - |
@@ -751,7 +751,7 @@ In this case the Test Accuracy value was filled with a _-_ sign.*
 ### - Between80And90 / FaceOnly
 
 | Name | Details | Training Accuracy | Validation Accuracy | Test Accuracy |
-| -----| ------- | ----------------- | ------------------- | ------------- |
+| :-----: | :-------: | :-----------------: | :-------------------: | :-------------: |
 | Training1 | VGG16 / Random  Weights | 0.302 | 0.025 | 0.033 |
 | Training2 | MobileNetV2 / Random  Weights | 0.958 | 0.017 | 0.025 |
 | Training3 | VGG16 / Random  Weights / Data Augmentation | 0.036 | 0.025 | - |
@@ -768,7 +768,7 @@ In this case the Test Accuracy value was filled with a _-_ sign.*
 ### - Above90 / FullPhoto
 
 | Name | Details | Training Accuracy | Validation Accuracy | Test Accuracy |
-| -----| ------- | ----------------- | ------------------- | ------------- |
+| :-----: | :-------: | :-----------------: | :-------------------: | :-------------: |
 | Training1 | VGG16 / Random  Weights | 0.024 | 0.024 | 0.024 |
 | Training2 | MobileNetV2 / Random  Weights | 1.000 | 0.024 | - |
 | Training3 | VGG16 / Random  Weights / Data Augmentation | 0.021 | 0.024 | 0.024 |
@@ -785,7 +785,7 @@ In this case the Test Accuracy value was filled with a _-_ sign.*
 ### - Above90 / FaceOnly
 
 | Name | Details | Training Accuracy | Validation Accuracy | Test Accuracy |
-| -----| ------- | ----------------- | ------------------- | ------------- |
+| :-----: | :-------: | :-----------------: | :-------------------: | :-------------: |
 | Training1 | VGG16 / Random  Weights | 0.024 | 0.024 | - |
 | Training2 | MobileNetV2 / Random  Weights | 0.993 | 0.024 | - |
 | Training3 | VGG16 / Random  Weights / Data Augmentation | 0.026 | 0.024 | 0.024 |
