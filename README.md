@@ -620,6 +620,187 @@ See <ins>_/Training/Above90/FaceOnly/Training12.ipynb_</ins> file for details.
 
 ---
 
+# *<center>Tables</center>*
+
+---
+
+*While writing the accuracy values, the epochs whose Validation and Training Accuracy values were evaluated as the best were used throughout the training process.
+Since these trainings are for observation purposes only, weights were not saved for the epochs evaluated as the best so the model was tested with the weights obtained in the last epoch.
+Therefore, there is no Test Accuracy for the relevant weights when the epoch that is considered the best is not the last epoch.
+In this case the Test Accuracy value was filled with a _-_ sign.*
+
+### - ResizedData / FullPhoto
+
+| Name | Details | Training Accuracy | Validation Accuracy | Test Accuracy |
+| -----| ------- | ----------------- | ------------------- | ------------- |
+| Training1 | VGG16 / Random  Weights | 0.085 | 0.095 | 0.097 |
+| Training2 | MobileNetV2 / Random  Weights | 0.866 | 0.198 | - |
+| Training3 | VGG16 / Random  Weights / Data Augmentation | 0.084 | 0.095 | 0.097 |
+| Training4 | MobileNetV2 / Random  Weights / Data Augmentation | 0.957 | 0.302 | - |
+| Training5 | VGG16 / ImageNet | 0.617 | 0.151 | - |
+| Training6 | MobileNetV2 / ImageNet | 0.996 | 0.421 | 0.376 |
+| Training7 | VGG16 / ImageNet / Data Augmentation | 0.231 | 0.219 | 0.195 |
+| Training8 | MobileNetV2 / ImageNet / Data Augmentation | 0.872 | 0.370 | 0.334 |
+| Training9 | VGG16 / ImageNet / Fine-Tuning | 0.085 | 0.095 | 0.097 |
+| Training10 | MobileNetV2 / ImageNet / Fine-Tuning | 1.000 | 0.696 | - |
+| Training11 | VGG16 / ImageNet / Fine-Tuning / Data Augmentation | 0.084 | 0.095 | 0.097 |
+| Training12 | MobileNetV2 / ImageNet / Fine-Tuning / Data Augmentation | 0.995 | 0.662 | 0.574 |
+
+### - ResizedData / FaceOnly
+
+| Name | Details | Training Accuracy | Validation Accuracy | Test Accuracy |
+| -----| ------- | ----------------- | ------------------- | ------------- |
+| Training1 | VGG16 / Random  Weights | 0.085 | 0.095 | 0.097 |
+| Training2 | MobileNetV2 / Random  Weights | 0.835 | 0.173 | - |
+| Training3 | VGG16 / Random  Weights / Data Augmentation | 0.087 | 0.095 | 0.097 |
+| Training4 | MobileNetV2 / Random  Weights / Data Augmentation | 0.929 | 0.527 | - |
+| Training5 | VGG16 / ImageNet | 0.597 | 0.214 | 0.198 |
+| Training6 | MobileNetV2 / ImageNet | 0.997 | 0.451 | 0.436 |
+| Training7 | VGG16 / ImageNet / Data Augmentation | 0.179 | 0.211 | - |
+| Training8 | MobileNetV2 / ImageNet / Data Augmentation | 0.824 | 0.405 | - |
+| Training9 | VGG16 / ImageNet / Fine-Tuning | 0.085 | 0.095 | 0.097 |
+| Training10 | MobileNetV2 / ImageNet / Fine-Tuning | 1.000 | 0.728 | - |
+| Training11 | VGG16 / ImageNet / Fine-Tuning / Data Augmentation | 0.085 | 0.095 | 0.097 |
+| Training12 | MobileNetV2 / ImageNet / Fine-Tuning / Data Augmentation | 0.996 | 0.703 | 0.650 |
+
+### - FirstQuarter / FullPhoto
+
+| Name | Details | Training Accuracy | Validation Accuracy | Test Accuracy |
+| -----| ------- | ----------------- | ------------------- | ------------- |
+| Training1 | VGG16 / Random  Weights | 0.007 | 0.018 | - |
+| Training2 | MobileNetV2 / Random  Weights | 1.000 | 0.018 | - |
+| Training3 | VGG16 / Random  Weights / Data Augmentation | 0.011 | 0.018 | - |
+| Training4 | MobileNetV2 / Random  Weights / Data Augmentation | 0.961 | 0.055 | - |
+| Training5 | VGG16 / ImageNet | 1.000 | 0.218 | 0.211 |
+| Training6 | MobileNetV2 / ImageNet | 1.000 | 0.309 | 0.404 |
+| Training7 | VGG16 / ImageNet / Data Augmentation | 0.833 | 0.255 | - |
+| Training8 | MobileNetV2 / ImageNet / Data Augmentation | 0.999 | 0.418 | - |
+| Training9 | VGG16 / ImageNet / Fine-Tuning | 0.007 | 0.018 | - |
+| Training10 | MobileNetV2 / ImageNet / Fine-Tuning | 1.000 | 0.255 | 0.439 |
+| Training11 | VGG16 / ImageNet / Fine-Tuning / Data Augmentation | 0.011 | 0.018 | - |
+| Training12 | MobileNetV2 / ImageNet / Fine-Tuning / Data Augmentation | 1.000 | 0.564 | - |
+
+### - FirstQuarter / FaceOnly
+
+| Name | Details | Training Accuracy | Validation Accuracy | Test Accuracy |
+| -----| ------- | ----------------- | ------------------- | ------------- |
+| Training1 | VGG16 / Random  Weights | 0.007 | 0.018 | - |
+| Training2 | MobileNetV2 / Random  Weights | 0.993 | 0.18 | 0.000 |
+| Training3 | VGG16 / Random  Weights / Data Augmentation | 0.008 | 0.018 | - |
+| Training4 | MobileNetV2 / Random  Weights / Data Augmentation | 0.096 | 0.055 | - |
+| Training5 | VGG16 / ImageNet | 1.000 | 0.291 | - |
+| Training6 | MobileNetV2 / ImageNet | 1.000 | 0.346 | 0.368 |
+| Training7 | VGG16 / ImageNet / Data Augmentation | 0.921 | 0.309 | - |
+| Training8 | MobileNetV2 / ImageNet / Data Augmentation | 0.995 | 0.364 | 0.404 |
+| Training9 | VGG16 / ImageNet / Fine-Tuning | 0.009 | 0.018 | - |
+| Training10 | MobileNetV2 / ImageNet / Fine-Tuning | 1.000 | 0.273 | 0.263 |
+| Training11 | VGG16 / ImageNet / Fine-Tuning / Data Augmentation | 0.009 | 0.018 | - |
+| Training12 | MobileNetV2 / ImageNet / Fine-Tuning / Data Augmentation | 1.000 | 0.346 | 0.421 |
+
+### - ThirdQuarter / FullPhoto
+
+| Name | Details | Training Accuracy | Validation Accuracy | Test Accuracy |
+| -----| ------- | ----------------- | ------------------- | ------------- |
+| Training1 | VGG16 / Random  Weights | 0.017 | 0.041 | - |
+| Training2 | MobileNetV2 / Random  Weights | 1.000 | 0.031 | 0.000 |
+| Training3 | VGG16 / Random  Weights / Data Augmentation | 0.021 | 0.031 | - |
+| Training4 | MobileNetV2 / Random  Weights / Data Augmentation | 0.935 | 0.093 | 0.099 |
+| Training5 | VGG16 / ImageNet | 1.000 | 0.572 | - |
+| Training6 | MobileNetV2 / ImageNet | 1.000 | 0.563 | 0.395 |
+| Training7 | VGG16 / ImageNet / Data Augmentation | 0.965 | 0.479 | - |
+| Training8 | MobileNetV2 / ImageNet / Data Augmentation | 0.994 | 0.552 | 0.333 |
+| Training9 | VGG16 / ImageNet / Fine-Tuning | 0.012 | 0.031 | - |
+| Training10 | MobileNetV2 / ImageNet / Fine-Tuning | 1.000 | 0.667 | 0.469 |
+| Training11 | VGG16 / ImageNet / Fine-Tuning / Data Augmentation | 0.021 | 0.020 | 0.025 |
+| Training12 | MobileNetV2 / ImageNet / Fine-Tuning / Data Augmentation | 1.000 | 0.718 | 0.556 |
+
+### - ThirdQuarter / FaceOnly
+
+| Name | Details | Training Accuracy | Validation Accuracy | Test Accuracy |
+| -----| ------- | ----------------- | ------------------- | ------------- |
+| Training1 | VGG16 / Random  Weights | 0.022 | 0.031 | - |
+| Training2 | MobileNetV2 / Random  Weights | 0.980 | 0.021 | 0.012 |
+| Training3 | VGG16 / Random  Weights / Data Augmentation | 0.021 | 0.031 | - |
+| Training4 | MobileNetV2 / Random  Weights / Data Augmentation | 0.956 | 0.063 | - |
+| Training5 | VGG16 / ImageNet | 1.000 | 0.625 | 0.531 |
+| Training6 | MobileNetV2 / ImageNet | 1.000 | 0.562 | - |
+| Training7 | VGG16 / ImageNet / Data Augmentation | 0.930 | 0.458 | - |
+| Training8 | MobileNetV2 / ImageNet / Data Augmentation | 0.967 | 0.573 | - |
+| Training9 | VGG16 / ImageNet / Fine-Tuning | 0.027 | 0.031 | - |
+| Training10 | MobileNetV2 / ImageNet / Fine-Tuning | 1.000 | 0.417 | 0.395 |
+| Training11 | VGG16 / ImageNet / Fine-Tuning / Data Augmentation | 0.025 | 0.021 | 0.025 |
+| Training12 | MobileNetV2 / ImageNet / Fine-Tuning / Data Augmentation | 0.997 | 0.583 | - |
+
+### - Between80And90 / FullPhoto
+
+| Name | Details | Training Accuracy | Validation Accuracy | Test Accuracy |
+| -----| ------- | ----------------- | ------------------- | ------------- |
+| Training1 | VGG16 / Random  Weights | 0.030 | 0.041 | 0.017 |
+| Training2 | MobileNetV2 / Random  Weights | 0.981 | 0.041 | 0.008 |
+| Training3 | VGG16 / Random  Weights / Data Augmentation | 0.031 | 0.041 | - |
+| Training4 | MobileNetV2 / Random  Weights / Data Augmentation | 0.933 | 0.214 | - |
+| Training5 | VGG16 / ImageNet | 1.000 | 0.537 | 0.400 |
+| Training6 | MobileNetV2 / ImageNet | 1.000 | 0.537 | - |
+| Training7 | VGG16 / ImageNet / Data Augmentation | 0.950 | 0.479 | - |
+| Training8 | MobileNetV2 / ImageNet / Data Augmentation | 0.973 | 0.579 | - |
+| Training9 | VGG16 / ImageNet / Fine-Tuning | 0.028 | 0.041 | - |
+| Training10 | MobileNetV2 / ImageNet / Fine-Tuning | 1.000 | 0.0703 | 0.683 |
+| Training11 | VGG16 / ImageNet / Fine-Tuning / Data Augmentation | 0.034 | 0.041 | - |
+| Training12 | MobileNetV2 / ImageNet / Fine-Tuning / Data Augmentation | 0.999 | 0.686 | - |
+
+### - Between80And90 / FaceOnly
+
+| Name | Details | Training Accuracy | Validation Accuracy | Test Accuracy |
+| -----| ------- | ----------------- | ------------------- | ------------- |
+| Training1 | VGG16 / Random  Weights | 0.302 | 0.025 | 0.033 |
+| Training2 | MobileNetV2 / Random  Weights | 0.958 | 0.017 | 0.025 |
+| Training3 | VGG16 / Random  Weights / Data Augmentation | 0.036 | 0.025 | - |
+| Training4 | MobileNetV2 / Random  Weights / Data Augmentation | 0.953 | 0.265 | - |
+| Training5 | VGG16 / ImageNet | 1.000 | 0.710 | 0.650 |
+| Training6 | MobileNetV2 / ImageNet | 1.000 | 0.579 | 0.608 |
+| Training7 | VGG16 / ImageNet / Data Augmentation | 0.926 | 0.603 | - |
+| Training8 | MobileNetV2 / ImageNet / Data Augmentation | 0.935 | 0.620 | - |
+| Training9 | VGG16 / ImageNet / Fine-Tuning | 0.030 | 0.041 | 0.017 |
+| Training10 | MobileNetV2 / ImageNet / Fine-Tuning | 1.000 | 0.744 | 0.700 |
+| Training11 | VGG16 / ImageNet / Fine-Tuning / Data Augmentation | 0.029 | 0.050 | - |
+| Training12 | MobileNetV2 / ImageNet / Fine-Tuning / Data Augmentation | 0.999 | 0.694 | 0.625 |
+
+### - Above90 / FullPhoto
+
+| Name | Details | Training Accuracy | Validation Accuracy | Test Accuracy |
+| -----| ------- | ----------------- | ------------------- | ------------- |
+| Training1 | VGG16 / Random  Weights | 0.024 | 0.024 | 0.024 |
+| Training2 | MobileNetV2 / Random  Weights | 1.000 | 0.024 | - |
+| Training3 | VGG16 / Random  Weights / Data Augmentation | 0.021 | 0.024 | 0.024 |
+| Training4 | MobileNetV2 / Random  Weights / Data Augmentation | 0.861 | 0.194 | - |
+| Training5 | VGG16 / ImageNet | 1.000 | 0.476 | - |
+| Training6 | MobileNetV2 / ImageNet | 1.000 | 0.508 | - |
+| Training7 | VGG16 / ImageNet / Data Augmentation | 0.943 | 0.516 | - |
+| Training8 | MobileNetV2 / ImageNet / Data Augmentation | 0.921 | 0.468 | - |
+| Training9 | VGG16 / ImageNet / Fine-Tuning | 0.014 | 0.024 | 0.024 |
+| Training10 | MobileNetV2 / ImageNet / Fine-Tuning | 1.000 | 0.823 | 0.786 |
+| Training11 | VGG16 / ImageNet / Fine-Tuning / Data Augmentation | 0.028 | 0.024 | - |
+| Training12 | MobileNetV2 / ImageNet / Fine-Tuning / Data Augmentation | 0.997 | 0.742 | - |
+
+### - Above90 / FaceOnly
+
+| Name | Details | Training Accuracy | Validation Accuracy | Test Accuracy |
+| -----| ------- | ----------------- | ------------------- | ------------- |
+| Training1 | VGG16 / Random  Weights | 0.024 | 0.024 | - |
+| Training2 | MobileNetV2 / Random  Weights | 0.993 | 0.024 | - |
+| Training3 | VGG16 / Random  Weights / Data Augmentation | 0.026 | 0.024 | 0.024 |
+| Training4 | MobileNetV2 / Random  Weights / Data Augmentation | 0.952 | 0.097 | - |
+| Training5 | VGG16 / ImageNet | 1.000 | 0.750 | 0.690 |
+| Training6 | MobileNetV2 / ImageNet | 0.997 | 0.645 | 0.667 |
+| Training7 | VGG16 / ImageNet / Data Augmentation | 0.954 | 0.629 | - |
+| Training8 | MobileNetV2 / ImageNet / Data Augmentation | 0.872 | 0.661 | - |
+| Training9 | VGG16 / ImageNet / Fine-Tuning | 0.024 | 0.024 | - |
+| Training10 | MobileNetV2 / ImageNet / Fine-Tuning | 1.000 | 0.734 | 0.730 |
+| Training11 | VGG16 / ImageNet / Fine-Tuning / Data Augmentation | 0.023 | 0.024 | 0.024 |
+| Training12 | MobileNetV2 / ImageNet / Fine-Tuning / Data Augmentation | 0.998 | 0.686 | - |
+
+---
+
 - _**Note:** All data files are deleted with their folders to save memory.
 If notebook files are wanted to be run, all folders in the lfw folder in the 
 [**lfw.tgz**](http://vis-www.cs.umass.edu/lfw/lfw.tgz "tgz File Link")
