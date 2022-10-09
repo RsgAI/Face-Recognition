@@ -2,8 +2,11 @@
 ---
 # *<center>Deep Learning Based Face Recognition</center>*
 
-*In this project, deep learning-based face recognition will be implemented on the
-[**Labeled Face in the Wild**](http://vis-www.cs.umass.edu/lfw/ "Official Website") dataset.*
+*This project is an observational preliminary study for the training of the face recognition model, which is one of the components of the 
+[**Computer Vision and Deep Learning Based Virtual Teacher**](https://github.com/RsgAI/Computer-Vision-and-Deep-Learning-Based-Virtual-Teacher "GitHub Repository") project.
+In this project, deep learning-based face recognition will be implemented on the
+[**Labeled Face in the Wild**](http://vis-www.cs.umass.edu/lfw/ "Official Website") dataset.
+Comparisons will be made between models and datasets by training different models with different quality and quantity parts of the relevant dataset.*
 
 ### Note: Work on this project is being continued
 ---
@@ -744,7 +747,7 @@ In this case the Test Accuracy value was filled with a _-_ sign.*
 | Training7 | VGG16 / ImageNet / Data Augmentation | 0.950 | 0.479 | - |
 | Training8 | MobileNetV2 / ImageNet / Data Augmentation | 0.973 | 0.579 | - |
 | Training9 | VGG16 / ImageNet / Fine-Tuning | 0.028 | 0.041 | - |
-| Training10 | MobileNetV2 / ImageNet / Fine-Tuning | 1.000 | 0.0703 | 0.683 |
+| Training10 | MobileNetV2 / ImageNet / Fine-Tuning | 1.000 | 0.703 | 0.683 |
 | Training11 | VGG16 / ImageNet / Fine-Tuning / Data Augmentation | 0.034 | 0.041 | - |
 | Training12 | MobileNetV2 / ImageNet / Fine-Tuning / Data Augmentation | 0.999 | 0.686 | - |
 
