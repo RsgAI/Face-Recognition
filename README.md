@@ -6,9 +6,9 @@
 [**Computer Vision and Deep Learning Based Virtual Teacher**](https://github.com/RsgAI/Computer-Vision-and-Deep-Learning-Based-Virtual-Teacher "GitHub Repository") project.
 In this project, deep learning-based face recognition will be implemented on the
 [**Labeled Face in the Wild**](http://vis-www.cs.umass.edu/lfw/ "Official Website") dataset.
-Comparisons will be made between models and datasets by training different models with different quality and quantity parts of the relevant dataset.*
+Comparisons will be made between models and datasets by training different models with different quality and quantity parts of the relevant dataset.
+Inferences made according to the results obtained are available in the [**Inferences Section**](#inferences).*
 
-### Note: Work on this project is being continued
 ---
 
 ### *Dataset*
@@ -801,6 +801,41 @@ In this case the Test Accuracy value was filled with a _-_ sign.*
 | Training10 | MobileNetV2 / ImageNet / Fine-Tuning | 1.000 | 0.734 | 0.730 |
 | Training11 | VGG16 / ImageNet / Fine-Tuning / Data Augmentation | 0.023 | 0.024 | 0.024 |
 | Training12 | MobileNetV2 / ImageNet / Fine-Tuning / Data Augmentation | 0.998 | 0.686 | - |
+
+---
+
+# *<center>Inferences</center>*
+
+---
+First of all, models trained with images(FullPhoto) without Face Detection and trained with facial images(FaceOnly) detected in these images  will be compared.
+Considering the logic of the situation, models trained with FullPhoto data will use a wider perspective to recognize the person in the image.
+Since the images in the dataset are already prepared in a way that highlights the person to whom the image is related, feeding the model with these images will mean more features that can be used for recognizing the person.
+In other words, in this case, the model will have information such as hair color, hairstyle, clothing style and the place where the photo was taken that can identify the person.
+However, using these features means that there will be less focus on features related to facial features.
+On the other hand, models trained with FaceOnly data will classify the relevant person according to the region to be distinguished directly.
+Since both methods have advantages and disadvantages, both methods were applied on the same models for observation purposes.
+Looking at the [**Tables Section**](#Tables), it can be said that there is no obvious advantage between the trainings made with FullPhoto and FaceOnly data.
+Models trained with FullPhoto data in some datasets and FaceOnly data in some datasets were more successful.
+However, when the results of the VGG16 model trainings are examined, it can be said that FaceOnly datasets are a better option within the scope of this project.
+
+[**CNN**](https://en.wikipedia.org/wiki/Convolutional_neural_network "wikipedia") blocks in the architectures used in this project are relatively hard to train networks.
+If the first four training results of each title in the [**Tables Section**](#Tables) are examined, it can be seen that the models with the MobileNetV2 architecture result in overfitting and the models with the VGG16 architecture cannot even reach overfitting.
+It can be said that this situation is related to the number of trainable parameters (VGG16: 41,498,474; MobileNetV2: 2,277,674) of the architectures used.
+It can be said that more parameters that need to be adjusted require more data.
+Also, since the VGG16 architecture is much larger, the _Batch Size_ used during training was chosen lower than those used in the MobileNetV2 architecture to avoid memory problems.
+For these reasons, such results were obtained in the trainings carried out without using the Transfer Learning method.
+
+Looking at the results of trainings (Training5-Training6) using the Transfer Learning method without Data Augmentation in the [**Tables Section**](#Tables), there is no obvious superiority between the VGG16 and MobileNetV2 models.
+However, it can still be said that the VGG16 model achieved slightly higher success, especially in high-quality datasets.
+But, looking at the results of trainings (Training7-Training8) using the Transfer Learning and Data Augmentation methods together, this time it can be said that slightly higher success was achieved with the MobileNetV2 model than with the VGG16 model.
+In addition, it can be said that the Data Augmentation method for these four trainings generally affects the VGG16 model negatively and the MobileNetV2 model positively.
+
+Looking at the results of the last four trainings in which the Fine-Tuning method was used in the [**Tables Section**](#Tables), it can be seen that while MobileNetv2 models achieve high success, VGG16 models cannot even reach Overfiting.
+This is due to the fact that the Fine-Tuning method ignores some of the information obtained from the Transfer Learning method and retrains these layers.
+As mentioned in the second paragraph, [**CNN**](https://en.wikipedia.org/wiki/Convolutional_neural_network "wikipedia") networks are difficult to train and the last CNN block of the VGG16 model was tried to be retrained in accordance with the Fine-Tuning method.
+VGG16 training was failed in this section due to high number of trainable parameters and low _Batch Size_.
+On the other hand, since the MobileNetV2 model consists of a larger number of smaller blocks, the small blocks retrained according to the Fine-Tuning method was positively affected the success.
+However, the expected efficiency from the Data Augmentation method in this section could not be obtained in general, as there were changes on the feature extraction layers.
 
 ---
 
